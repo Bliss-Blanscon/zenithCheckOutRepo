@@ -2,7 +2,7 @@ import React from "react";
 
 const about = () => {
   return (
-    <section className="flex h-120 items-center justify-between my-20">
+    <section id="about" className="flex h-120 items-center justify-between my-20 px-8">
       <div className="flex h-120 w-full">
         <img
           src="https://chatgpt.com/backend-api/public_content/enc/eyJpZCI6Im1fNjg0MTlmZjY5NmUwODE5MWExMDQ0NjIyMzQ4YjNmOTU6ZmlsZV8wMDAwMDAwMDdiNjg2MjMwYTYwMDUyN2FkYzIyMWRiMyIsInRzIjoiNDg1ODY5IiwicCI6InB5aSIsInNpZyI6Ijg1NzQzMGE0NDVjOGRkZDNlZTI4NDI4YTk1MGM5MDczMWI3Nzk4ODUwMTc0ZjA2YTUzOWVjYmZjMjAyMTAyM2IiLCJ2IjoiMCIsImdpem1vX2lkIjpudWxsfQ=="

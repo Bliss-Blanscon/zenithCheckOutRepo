@@ -13,10 +13,12 @@ const footer = () => {
         <h1 className="text-xl mb-2">Contact Info</h1>
         <div className="flex gap-6">
           <p>
-            <span className="text-gray-300">Address:</span> 15 Something Street, Accra
+            <span className="text-gray-300">Address:</span> 15 Something Street,
+            Accra
           </p>
           <p>
-            <span className="text-gray-300">Phone:</span> 0200000000 | 0500000000
+            <span className="text-gray-300">Phone:</span> 0200000000 |
+            0500000000
           </p>
           <p>
             <span className="text-gray-300">Email:</span> restaurant@gmail.com
@@ -36,6 +38,7 @@ const footer = () => {
       </div>
       <div className="flex justify-between mt-8 py-4">
         <h1 className="font-bold">Nududu</h1>
+        <p>© 2025 Nududu Restaurant</p>
         <div className="flex gap-4 justify-center items-center">
           <a href="">
             <FaFacebookF />

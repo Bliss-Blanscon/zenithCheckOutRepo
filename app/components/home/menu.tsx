@@ -1,13 +1,13 @@
 const menu = () => {
   return (
-    <section id="menu" className="px-8 h-[80vh]">
+    <section id="menu" className="px-8 h-[80vh] my-20">
       <h1 className="text-3xl mb-6">Explore Our Menu</h1>
       <div className=" flex h-full gap-4">
         <div className=" h-full flex flex-col gap-4 flex-1">
           <div className="rounded-2xl flex-[0.5] w-full relative text-nowrap">
             <div className="absolute">
               <p className="text-xl">
-                Signature dishes for every taste - from classic{" "}
+                Signature dishes for every taste - from classic
               </p>
               <p className="text-xl">recipies to bold culinary experiments </p>
             </div>
@@ -17,7 +17,7 @@ const menu = () => {
         </div>
         <div className=" h-full flex-col gap-4 flex flex-[1.5]">
           <div className=" rounded-2xl flex flex-1 items-end gap-4">
-            <button className="px-4 py-2 rounded-full bg-green-900 text-white borders cursor-pointer">
+            <button className="px-4 py-2 rounded-full bg-gray-800 text-white borders cursor-pointer">
               View Full Menu
             </button>
             <div className="bg-gray-300 flex flex-1 rounded-2xl h-full"></div>

@@ -8,8 +8,7 @@ const heroSection = () => {
           <div className="flex gap-4 text-white absolute top-4 left-4 font-bold text-xs">
             <a href="#about">ABOUT</a>
             <a href="#menu">MENU</a>
-            <a href="">SERVICES</a>
-            <a href="">CONTACT</a>
+            <a href="#contact">CONTACT</a>
           </div>
 
           <h1 className="text-9xl font-bold font-[croissant-one] text-white">
@@ -18,12 +17,20 @@ const heroSection = () => {
           <p className="text-2xl font-bold text-white">
             Lorem ipsum dolor sit amet consectetur
           </p>
-          <a
-            href="#menu"
-            className="px-4 py-2 border cursor-pointer font-semibold bg-white rounded-full mt-2"
-          >
-            SEE MENU
-          </a>
+          <div className="flex gap-1">
+            <a
+              href="#menu"
+              className="w-34 py-2 border cursor-pointer font-semibold bg-white rounded-full mt-2"
+            >
+              SEE MENU
+            </a>
+            <a
+              href="#contact"
+              className="w-34 py-2 border cursor-pointer font-semibold bg-white rounded-full mt-2"
+            >
+              CONTACT US
+            </a>
+          </div>
         </div>
       </section>
     </div>

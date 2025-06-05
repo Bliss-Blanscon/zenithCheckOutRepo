@@ -3,8 +3,8 @@ import React from "react";
 const heroSection = () => {
   return (
     <div>
-      <section className="bg-[url(https://plus.unsplash.com/premium_photo-1694141250007-fc4711bb9df1?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] bg-center h-screen w-screen">
-        <div className="h-screen w-screen bg-black/25 flex flex-col text-center justify-center items-center gap-4">
+      <section className="bg-[url(https://plus.unsplash.com/premium_photo-1694141250007-fc4711bb9df1?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] h-screen ">
+        <div className=" bg-black/25 flex flex-col text-center justify-center items-center gap-4 h-screen">
           <div className="flex gap-4 text-white absolute top-4 left-4 font-bold text-xs">
             <a href="">ABOUT</a>
             <a href="">MENU</a>

@@ -2,16 +2,16 @@ import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const footer = () => {
   return (
-    <div id="contact" className="bg-gray-800 text-white mt-40 px-8  pt-10">
+    <div id="contact" className="bg-gray-800 text-white mt-40 px-8 pt-10">
       <div className="border-b border-b-white pb-6">
-        <h1 className="text-3xl mb-1 font-semibold">
+        <h1 className="lg:text-3xl md:text-3xl text-2xl mb-1 font-semibold">
           Do you have any questions?
         </h1>
         <p>Contact us and we'll answer all your questions</p>
       </div>
       <div className="py-4">
-        <h1 className="text-xl mb-2">Contact Info</h1>
-        <div className="flex gap-6">
+        <h1 className="lg:text-xl md:text-xl mb-2">Contact Info</h1>
+        <div className="flex flex-col lg:flex-row md:flex-row gap-6">
           <p>
             <span className="text-gray-300">Address:</span> 15 Something Street,
             Accra
@@ -26,7 +26,7 @@ const footer = () => {
         </div>
       </div>
       <div>
-        <h1 className="text-xl mb-2">Opening Hours</h1>
+        <h1 className="lg:text-xl md:text-xl mb-2">Opening Hours</h1>
         <div className="flex gap-6">
           <p>
             <span className="text-gray-300">Mon-Fri:</span> 8:00 AM - 10:00 PM
@@ -36,7 +36,7 @@ const footer = () => {
           </p>
         </div>
       </div>
-      <div className="flex justify-between mt-8 py-4">
+      <div className="flex justify-between mt-8 py-4 text-xs lg:text-base md:text-base">
         <h1 className="font-bold">Nududu</h1>
         <p>© 2025 Nududu Restaurant</p>
         <div className="flex gap-4 justify-center items-center">

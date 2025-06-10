@@ -11,10 +11,10 @@ const heroSection = () => {
             <a href="#contact">CONTACT</a>
           </div>
 
-          <h1 className="text-9xl font-bold font-[croissant-one] text-white">
+          <h1 className="text-7xl md:text-9xl lg:text-9xl font-bold font-[croissant-one] text-white">
             Nududu
           </h1>
-          <p className="text-2xl font-bold text-white">
+          <p className="lg:text-2xl md:text-2xl text-xl font-bold w-3/4 lg:w-full md:w-full text-white">
             Lorem ipsum dolor sit amet consectetur
           </p>
           <div className="flex gap-1">

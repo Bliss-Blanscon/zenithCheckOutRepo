@@ -66,10 +66,6 @@ tailwind.config.js
 
 - `Croissant One` and `Quicksand` are included in `app/assets/fonts` and loaded via `app/app.css`.
 
-## License
-
-MIT
-
 ---
 
 © 2025 Nududu Restaurant

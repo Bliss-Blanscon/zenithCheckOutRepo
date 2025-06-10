@@ -4,9 +4,9 @@ const about = () => {
   return (
     <section
       id="about"
-      className="flex flex-col lg:flex-row md:flex-row gap-10 lg:gap-0 md:gap-0 lg:h-120 items-center justify-between my-20 px-8"
+      className="flex flex-col lg:flex-row md:flex-row  gap-10 lg:gap-0 md:gap-0 lg:h-120 items-center justify-between my-20 px-8"
     >
-      <div className="flex w-full">
+      <div className="flex w-full min-w-70">
         <img
           src="https://chatgpt.com/backend-api/public_content/enc/eyJpZCI6Im1fNjg0MTlmZjY5NmUwODE5MWExMDQ0NjIyMzQ4YjNmOTU6ZmlsZV8wMDAwMDAwMDdiNjg2MjMwYTYwMDUyN2FkYzIyMWRiMyIsInRzIjoiNDg1ODY5IiwicCI6InB5aSIsInNpZyI6Ijg1NzQzMGE0NDVjOGRkZDNlZTI4NDI4YTk1MGM5MDczMWI3Nzk4ODUwMTc0ZjA2YTUzOWVjYmZjMjAyMTAyM2IiLCJ2IjoiMCIsImdpem1vX2lkIjpudWxsfQ=="
           alt="Soup"

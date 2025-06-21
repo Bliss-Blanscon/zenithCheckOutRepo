@@ -1,9 +1,6 @@
 import type { Route } from "./+types/Home";
-import Menu from "~/components/home/Menu";
-import Footer from "~/components/general/Footer";
-import Header from "~/components/general/Header";
-import HeroSection from "~/components/home/HeroSection";
-import About from "~/components/home/About";
+import { AuthProvider } from "~/Context/AuthContext";
+import Test from "~/components/home/test";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -14,12 +11,8 @@ export function meta({}: Route.MetaArgs) {
 
 export default function Home() {
   return (
-    <div>
-      <Header />
-      <HeroSection />
-      <About />
-      <Menu />
-      <Footer />
-    </div>
+    <AuthProvider>
+      <Test />
+    </AuthProvider>
   );
 }

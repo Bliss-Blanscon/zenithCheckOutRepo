@@ -5,11 +5,4 @@ import {
   route,
 } from "@react-router/dev/routes";
 
-export default [
-  index("routes/Home.tsx"),
-  layout("./auth/Layout.tsx", [
-    index("./auth/Login.tsx"),
-    route("login", "./auth/Login.tsx"),
-    route("register", "./auth/Register.tsx"),
-  ]),
-] satisfies RouteConfig;
+export default [index("routes/Home.tsx")] satisfies RouteConfig;

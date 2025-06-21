@@ -1,18 +1,11 @@
-
 const About = () => {
   return (
     <section
       id="about"
-      className="flex flex-col sm:flex-row  gap-10 sm:gap-0 lg:h-120 items-center justify-between my-20 px-8"
+      className="flex flex-col h-full sm:flex-row my-50 gap-10 sm:gap-10 items-center justify-between px-8"
     >
-      <div className="flex w-full min-w-70">
-        <img
-          src="https://chatgpt.com/backend-api/public_content/enc/eyJpZCI6Im1fNjg0MTlmZjY5NmUwODE5MWExMDQ0NjIyMzQ4YjNmOTU6ZmlsZV8wMDAwMDAwMDdiNjg2MjMwYTYwMDUyN2FkYzIyMWRiMyIsInRzIjoiNDg1ODY5IiwicCI6InB5aSIsInNpZyI6Ijg1NzQzMGE0NDVjOGRkZDNlZTI4NDI4YTk1MGM5MDczMWI3Nzk4ODUwMTc0ZjA2YTUzOWVjYmZjMjAyMTAyM2IiLCJ2IjoiMCIsImdpem1vX2lkIjpudWxsfQ=="
-          alt="Soup"
-          className="object-cover rounded-full"
-        />
-      </div>
-      <div className="text-xl space-y-4 ">
+      <div className="h-80 min-w-80 bg-gray-500 rounded-full"></div>
+      <div className="text-xl gap-4 flex flex-col">
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae
           ratione, quis nostrum ducimus at eaque. Corporis commodi distinctio,

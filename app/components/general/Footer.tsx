@@ -2,7 +2,7 @@ import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div id="contact" className="bg-black mt-40 px-8 pt-10">
+    <div id="contact" className="bg-black mt-10 px-8 pt-10">
       <div className="border-b border-b-white pb-6">
         <h1 className="lg:text-3xl md:text-3xl text-2xl mb-1 font-semibold">
           Do you have any questions?

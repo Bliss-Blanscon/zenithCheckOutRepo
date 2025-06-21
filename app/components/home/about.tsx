@@ -1,10 +1,9 @@
-import React from "react";
 
-const about = () => {
+const About = () => {
   return (
     <section
       id="about"
-      className="flex flex-col lg:flex-row md:flex-row  gap-10 lg:gap-0 md:gap-0 lg:h-120 items-center justify-between my-20 px-8"
+      className="flex flex-col sm:flex-row  gap-10 sm:gap-0 lg:h-120 items-center justify-between my-20 px-8"
     >
       <div className="flex w-full min-w-70">
         <img
@@ -31,4 +30,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;

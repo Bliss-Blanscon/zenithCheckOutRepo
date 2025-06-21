@@ -3,23 +3,24 @@ import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
 const Footer = () => {
   return (
     <div id="contact" className="bg-black mt-10 px-8 pt-10">
-      <div className="border-b border-b-white pb-6">
+      <div className="border-b-2 border-b-gray-500 pb-6">
         <h1 className="lg:text-3xl md:text-3xl text-2xl mb-1 font-semibold">
           Do you have any questions?
         </h1>
         <p>Contact us and we'll answer all your questions</p>
       </div>
-      <div className="flex gap-10">
+      <div className="flex gap-10 items-start pt-5">
+        <a href="https://maps.app.goo.gl/8Hc4oTDfvq8ho64P7" target="_blank">
+          <img src="app/assets/images/image.png" alt="googleMapLink" />
+        </a>
         <div className="py-4">
           <div className="flex flex-col gap-6">
             <h1 className="lg:text-xl md:text-xl">Contact Info</h1>
             <p>
-              <span className="text-gray-300">Address:</span> 15 Something
-              Street, Accra
+              <span className="text-gray-300">Address:</span> Ecobank, Madina
             </p>
             <p>
-              <span className="text-gray-300">Phone:</span> 0200000000 |
-              0500000000
+              <span className="text-gray-300">Phone:</span> +233 25 628 6634
             </p>
             <p>
               <span className="text-gray-300">Email:</span> restaurant@gmail.com
@@ -40,7 +41,7 @@ const Footer = () => {
       </div>
       <div className="flex justify-between mt-8 py-4 text-xs lg:text-base md:text-base">
         <h1 className="font-bold">Nududu</h1>
-        <p>© 2025 Nududu Restaurant</p>
+        <p>© 2025 De Bliss Restaurant</p>
         <div className="flex gap-4 justify-center items-center">
           <a href="">
             <FaFacebookF />

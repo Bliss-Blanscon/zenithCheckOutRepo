@@ -20,7 +20,7 @@ const Auth = () => {
     <motion.div
       initial={{ visibility: "hidden" }}
       animate={auth && { visibility: "visible" }}
-      className="z-20 fixed flex justify-center items-center h-screen w-full bg-black/25 overflow-hidden"
+      className="z-20 fixed top-0 flex justify-center items-center h-screen w-full bg-black/25 overflow-hidden"
     >
       <motion.main
         initial={{ scale: 0, opacity: 0 }}
@@ -31,7 +31,7 @@ const Auth = () => {
             transition: { delay: 0.2 },
           }
         }
-        className="flex justify-center items-center relative bg-[#0e1113] size-125 rounded-md"
+        className="flex justify-center items-center relative bg-[#0e1113] sm:size-125 h-100 w-80 rounded-md"
       >
         <button
           className="absolute top-4 right-4 cursor-pointer"

@@ -1,16 +1,25 @@
 import React from "react";
 import { useAuthContext } from "~/Context/AuthContext";
+import { scrollToElement } from "./General";
+import { NavLink } from "react-router";
 
-const Header = () => {
+const Header1 = () => {
   const { setAuth } = useAuthContext();
 
   return (
     <header className="z-10 flex absolute top-0 w-full justify-between items-center py-2 bg-gradient-to-b from-black to-transparent px-6">
       <div className="flex flex-1 justify-start">Logo</div>
       <div className="gap-4 flex-1 flex justify-center">
-        <a href="#about">ABOUT</a>
-        <a href="#menu">MENU</a>
-        <a href="#contact">CONTACT</a>
+        <NavLink to="/menu">
+          <button className="cursor-pointer">MENU</button>
+        </NavLink>
+        <button onClick={() => scrollToElement("contact")}>CONTACT</button>
+        <button
+          className="cursor-pointer"
+          onClick={() => scrollToElement("about")}
+        >
+          ABOUT
+        </button>
       </div>
       <div className="gap-2 flex flex-1 justify-end">
         <button
@@ -32,4 +41,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header1;

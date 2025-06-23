@@ -1,6 +1,11 @@
+import Auth from "~/auth/Auth";
 import type { Route } from "./+types/Home";
 import { AuthProvider } from "~/Context/AuthContext";
-import Test from "~/components/home/test";
+import Header1 from "~/components/general/Header1";
+import HeroSection from "~/components/home/HeroSection";
+import ShortMenu from "~/components/home/ShortMenu";
+import About from "~/components/home/About";
+import Footer from "~/components/general/Footer";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -12,7 +17,14 @@ export function meta({}: Route.MetaArgs) {
 export default function Home() {
   return (
     <AuthProvider>
-      <Test />
+      <div>
+        <Auth />
+        <Header1 />
+        <HeroSection />
+        <ShortMenu />
+        <About />
+        <Footer />
+      </div>
     </AuthProvider>
   );
 }
